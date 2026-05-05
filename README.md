@@ -15,7 +15,7 @@ file, and generates a full summary report when you exit.
 REQUIREMENTS
 ------------
   Python 3.8 or higher
-  pip (Python package manager)
+  pip
   watchdog
  
   Desktop notifications require:
