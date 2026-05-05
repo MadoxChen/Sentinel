@@ -15,13 +15,14 @@ file, and generates a full summary report when you exit.
 REQUIREMENTS
 ------------
   Python 3.8 or higher
-  pip (Python package manager)
+  pip
   watchdog
  
-  Desktop notifications require:
-    Linux   — notify-send  (sudo apt install libnotify-bin)
-    macOS   — osascript    (built-in)
-    Windows — PowerShell   (built-in)
+  Desktop notifications require:  
+  
+   - Linux   - notify-send  (sudo apt install libnotify-bin)
+   - macOS   - osascript    (built-in)
+   - Windows - PowerShell   (built-in)
  
  
 INSTALLATION
