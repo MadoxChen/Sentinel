@@ -1,0 +1,68 @@
+================================================================
+  SENTINEL — SECURITY MONITOR REPORT
+================================================================
+  Generated : 2026-05-04 22:54:07
+  Session   : 0:06:11
+  Watching  : 14 directories
+
+  Watched Directories:
+    • /home/azrael
+    • /etc
+    • /etc/cron.d
+    • /etc/cron.daily
+    • /etc/cron.hourly
+    • /etc/cron.weekly
+    • /etc/cron.monthly
+    • /var
+    • /var/log
+    • /var/log/syslog
+    • /bin
+    • /usr/bin
+    • /usr/local/bin
+    • /sbin
+
+----------------------------------------------------------------
+  Total Events : 1620
+
+  By Severity:
+    CRITICAL       0  
+    HIGH         333  ████████████████████████████████████████
+    MEDIUM        95  ████████████████████████████████████████
+    LOW           24  ████████████████████████
+    INFO        1168  ████████████████████████████████████████
+
+  By Event Type:
+    MODIFIED      1038
+    CREATED        286
+    MOVED          267
+    DELETED         29
+
+----------------------------------------------------------------
+  Top 10 Most Frequently Changed Files:
+   1. [ 261x]  /home/azrael/.cache/mintinstall/pkginfo.json
+        Last seen: 2026-05-04 22:45:21
+   2. [  55x]  /home/azrael/.xsession-errors
+        Last seen: 2026-05-04 22:51:39
+   3. [  33x]  /home/azrael/.var/app/app.zen_browser.zen/.zen/mzvlbsbv.Default (release)/storage/default/moz-extension+++d0e8b3cc-3018-467b-a841-d544525e1f42^userContextId=4294967295/idb/3647222921wleabcEoxlt-eengsairo.sqlite-wal
+        Last seen: 2026-05-04 19:06:49
+   4. [  27x]  /home/azrael/.var/app/com.discordapp.Discord/config/discord/Cache/Cache_Data/index-dir/temp-index
+        Last seen: 2026-05-04 22:51:56
+   5. [  26x]  /home/azrael/.mozilla/firefox/1VIVTsUs.Profile 1/storage/default/https+++claude.ai/ls/usage-journal
+        Last seen: 2026-05-04 22:53:34
+   6. [  23x]  /home/azrael/.var/app/app.zen_browser.zen/.zen/mzvlbsbv.Default (release)/storage/default/moz-extension+++8b9bc485-a51a-4294-bb78-f45a257f778b^userContextId=4294967295/idb/3647222921wleabcEoxlt-eengsairo.sqlite-wal
+        Last seen: 2026-05-04 19:06:47
+   7. [  21x]  /var/log/syslog
+        Last seen: 2026-05-04 22:53:30
+   8. [  17x]  /etc/pihole/pihole-FTL.db-wal
+        Last seen: 2026-05-04 22:54:00
+   9. [  17x]  /home/azrael/.mozilla/firefox/1VIVTsUs.Profile 1/storage/default/https+++claude.ai/ls/data.sqlite
+        Last seen: 2026-05-04 22:53:34
+  10. [  17x]  /home/azrael/.mozilla/firefox/1VIVTsUs.Profile 1/storage/default/https+++claude.ai/idb/2728594770keeryovtasl-.files/408
+        Last seen: 2026-05-04 22:48:36
+
+================================================================
+  Data saved to:
+    Log  : sentinel_events.log
+    CSV  : sentinel_events.csv
+    DB   : sentinel.db
+================================================================
