@@ -18,18 +18,11 @@ REQUIREMENTS
   pip
   watchdog
  
-<<<<<<< HEAD
   Desktop notifications require:  
   
    - Linux   - notify-send  (sudo apt install libnotify-bin)
    - macOS   - osascript    (built-in)
    - Windows - PowerShell   (built-in)
-=======
-  Desktop notifications require:
-    Linux   - notify-send  (sudo apt install libnotify-bin)
-    macOS   - osascript    (built-in)
-    Windows - PowerShell   (built-in)
->>>>>>> origin
  
  
 INSTALLATION
