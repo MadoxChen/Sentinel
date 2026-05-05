@@ -19,9 +19,9 @@ REQUIREMENTS
   watchdog
  
   Desktop notifications require:
-    Linux   — notify-send  (sudo apt install libnotify-bin)
-    macOS   — osascript    (built-in)
-    Windows — PowerShell   (built-in)
+    Linux   - notify-send  (sudo apt install libnotify-bin)
+    macOS   - osascript    (built-in)
+    Windows - PowerShell   (built-in)
  
  
 INSTALLATION
